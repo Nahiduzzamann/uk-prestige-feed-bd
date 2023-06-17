@@ -23,7 +23,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div>
-                    <img className='h-80 lg:h-[750px]' src="https://www.ekoplon.pl/extensions/module/products/images/2020/07/08/lp-prestiz-_3.jpg" alt="Slider Image 2" />
+                    <img className='h-80 lg:h-[750px]' src="https://benisonmedia.com/wp-content/uploads/2022/03/Research-min-scaled.jpg" alt="Slider Image 2" />
                     <div className="legend text-base">
                         <h2 className='text-3xl'>Dry Boiler Feed</h2>
                     </div>
