@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Banner from '../../Home/Banner/Banner';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,42 +52,42 @@ const Navbar = () => {
               {isOpen && (
                 <ul className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-[#1A2753] rounded-box w-52 text-white absolute z-50">
                   <li>
-                    <Link to="/">Home</Link>
+                    <Link onClick={toggleMenu} to="/">Home</Link>
                   </li>
                   <li>
                     <a>Products</a>
                     <ul className="p-2">
                       <li>
-                        <Link to="/">Prestige Cattle Feed</Link>
+                        <Link onClick={toggleMenu} to={`/products/${1}`}>Prestige Cattle Feed</Link>
                       </li>
                       <li>
-                        <Link to="/">Prestige Boiler Feed</Link>
+                        <Link onClick={toggleMenu} to={`/products/${2}`}>Prestige Boiler Feed</Link>
                       </li>
                       <li>
-                        <Link to="/">Prestige Layer Feed</Link>
+                        <Link onClick={toggleMenu} to={`/products/${3}`}>Prestige Layer Feed</Link>
                       </li>
                       <li>
-                        <Link to="/">Prestige Sonali Feed</Link>
+                        <Link onClick={toggleMenu} to={`/products/${4}`}>Prestige Sonali Feed</Link>
                       </li>
                       <li>
-                        <Link to="/">Prestige Fish Feed</Link>
+                        <Link onClick={toggleMenu} to={`/products/${5}`}>Prestige Fish Feed</Link>
                       </li>
                       <li>
-                        <Link to="/">Prestige Dry Dog Feed</Link>
+                        <Link onClick={toggleMenu} to={`/products/${6}`}>Prestige Dry Dog Feed</Link>
                       </li>
                       <li>
-                        <Link to="/">Prestige Dry Cat Feed</Link>
+                        <Link onClick={toggleMenu} to={`/products/${7}`}>Prestige Dry Cat Feed</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link to="/">Services</Link>
+                    <Link onClick={toggleMenu} to="/Services">Services</Link>
                   </li>
                   <li>
-                    <Link to="/">About Us</Link>
+                    <Link onClick={toggleMenu} to="/">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/">Contact Us</Link>
+                    <Link onClick={toggleMenu} to="/">Contact Us</Link>
                   </li>
                 </ul>
               )}
@@ -112,37 +111,37 @@ const Navbar = () => {
                   </summary>
                   <ul className="p-2 bg-[#1A2753] absolute z-50 ">
                     <li>
-                      <Link className="text-white hover:text-gray-300 lg:text-xl" to="/">
+                      <Link className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${1}`}>
                         Prestige Cattle Feed
                       </Link>
                     </li>
                     <li>
-                      <Link className="text-white hover:text-gray-300 lg:text-xl" to="/">
+                      <Link className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${2}`}>
                         Prestige Boiler Feed
                       </Link>
                     </li>
                     <li>
-                      <Link className="text-white hover:text-gray-300 lg:text-xl" to="/">
+                      <Link className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${3}`}>
                         Prestige Layer Feed
                       </Link>
                     </li>
                     <li>
-                      <Link className="text-white hover:text-gray-300 lg:text-xl" to="/">
+                      <Link className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${4}`}>
                         Prestige Sonali Feed
                       </Link>
                     </li>
                     <li>
-                      <Link className="text-white hover:text-gray-300 lg:text-xl" to="/">
+                      <Link className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${5}`}>
                         Prestige Fish Feed
                       </Link>
                     </li>
                     <li>
-                      <Link className="text-white hover:text-gray-300 lg:text-xl" to="/">
+                      <Link className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${6}`}>
                         Prestige Dry Dog Feed
                       </Link>
                     </li>
                     <li>
-                      <Link className="text-white hover:text-gray-300 lg:text-xl" to="/">
+                      <Link className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${7}`}>
                         Prestige Dry Cat Feed
                       </Link>
                     </li>
@@ -150,7 +149,7 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <Link className="text-white hover:text-gray-300 lg:text-2xl  mr-5" to="/">
+                <Link className="text-white hover:text-gray-300 lg:text-2xl  mr-5" to="/Services">
                   Services
                 </Link>
               </li>
@@ -177,8 +176,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* Slider Component */}
-      <Banner></Banner>
+      
     </div>
   );
 };

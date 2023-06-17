@@ -76,7 +76,7 @@ const ProductDetail = () => {
 
   if (!selectedProduct) {
     // Handle the case when the product is not found
-    return <div>Product not found.</div>;
+    return <div className='text-4xl'>Product not found.</div>;
   }
 
   const { name, description, image, price, ingredients, usage } = selectedProduct;
