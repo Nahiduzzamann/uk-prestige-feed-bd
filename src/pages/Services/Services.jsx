@@ -4,7 +4,7 @@ import { faUtensils, faClipboard, faHeadset, faShieldAlt, faChalkboardTeacher, f
 
 const Services = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pb-20">
       <h1 className="text-4xl font-bold text-center mt-8">Our Services</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         <div className="bg-white p-6 rounded-lg shadow border-l-8 border-red-500 m-4">
