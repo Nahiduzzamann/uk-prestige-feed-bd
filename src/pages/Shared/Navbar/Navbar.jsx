@@ -109,7 +109,7 @@ const Navbar = () => {
                   <summary className="text-white hover:text-gray-300 lg:text-2xl mr-5">
                     Products
                   </summary>
-                  <ul className="p-2 bg-[#1A2753] absolute z-50 ">
+                  <ul className="p-2 bg-[#1A2753] absolute z-50">
                     <li>
                       <Link className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${1}`}>
                         Prestige Cattle Feed
