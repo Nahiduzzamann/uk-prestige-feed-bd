@@ -13,8 +13,8 @@ const Banner = () => {
                 showIndicators={true}
                 showThumbs={false}
                 interval={2000}
-                centerMode={true}
-                centerSlidePercentage={80}
+                // centerMode={true}
+                // centerSlidePercentage={95}
             >
                 <div className=''>
                     <img className='h-80 lg:h-[750px]' src="https://cdn.shopify.com/s/files/1/0508/4767/8644/articles/Responsible_Dog_Ownership_1200x.jpg?v=1663345594" alt="Slider Image 1" />
