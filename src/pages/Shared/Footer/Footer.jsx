@@ -25,7 +25,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div>
-                            <h3 className="text-blue-900 font-bold text-3xl mb-2 border-b-[3px] border-red-500 w-16">Products</h3>
+                            <h3 className="text-blue-900 font-bold text-3xl mb-2 border-b-[3px] border-[#00aaef] w-16">Products</h3>
                             <ul className="text-gray-400">
                                 <li className='text-blue-700 hover:text-blue-900'><Link to={`/products/${1}`}>Prestige Cattle Feed</Link> </li>
                                 <li className='text-blue-700 hover:text-blue-900'><Link to={`/products/${2}`}>Prestige Boiler Feed</Link></li>
@@ -35,20 +35,20 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-blue-900 font-bold text-3xl mb-2 border-b-[3px] border-red-500 w-16">Services</h3>
+                            <h3 className="text-blue-900 font-bold text-3xl mb-2 border-b-[3px] border-[#00aaef] w-16">Services</h3>
                             <ul className="">
                                 <li className='text-blue-700 hover:text-blue-900'><Link to='/Services'>Learn More</Link> </li>
 
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-blue-900 font-bold text-3xl mb-2 border-b-[3px] border-red-500 w-16">Contact</h3>
+                            <h3 className="text-blue-900 font-bold text-3xl mb-2 border-b-[3px] border-[#00aaef] w-16">Contact</h3>
                             <p className="text-blue-700">Khandakar Lodge, House-65, Road-2, RK Road,Islambag, Rangpur</p>
                             <p className="text-blue-700">Email: banglanetworkltd@gmail.com</p>
                             <p className="text-blue-700">Phone: 01713337752</p>
                         </div>
                     </div>
-                    <hr className="border-gray-700 my-4" />
+                    <hr className="border-[#00aaef] my-4" />
                     <p className="text-center text-black">
                         &copy; {new Date().getFullYear()} UK-Bangla Prestige Feed Industry (Pvt) Ltd. All rights reserved.
                     </p>
