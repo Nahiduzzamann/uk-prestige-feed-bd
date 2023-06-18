@@ -87,7 +87,7 @@ const Navbar = () => {
                     <Link onClick={toggleMenu} to="/">About Us</Link>
                   </li>
                   <li>
-                    <Link onClick={toggleMenu} to="/">Contact Us</Link>
+                    <Link onClick={toggleMenu} to="/contact">Contact Us</Link>
                   </li>
                 </ul>
               )}
@@ -159,7 +159,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link className="text-white hover:text-gray-300 lg:text-2xl  mr-5" to="/">
+                <Link className="text-white hover:text-gray-300 lg:text-2xl  mr-5" to="/contact">
                   Contact Us
                 </Link>
               </li>
