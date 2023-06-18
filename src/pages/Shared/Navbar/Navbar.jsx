@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full bg-gradient-to-r from-red-900 via-red-600 to-blue-600">
+    <div className="w-full bg-gradient-to-r from-gray-100 via-red-500 to-gray-200">
       <div>
         <div className="container mx-auto flex items-center justify-between">
           <div className="h-28">
@@ -36,7 +36,7 @@ const Navbar = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 w-10 text-white"
+                  className="h-10 w-10 text-[#1A2753]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
