@@ -41,7 +41,7 @@ const CompanyOverview = () => {
                         <img src="https://www.integrify.com/site/assets/files/7107/budgeting-process.jpg" alt="Company Image" className="w-96 md:w-full rounded-lg" />
                     </div>
                     <div>
-                        <h2 className="text-3xl font-bold mb-4 text-[#1A2753]">Company Overview</h2>
+                        <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#1A2753]">Company Overview</h2>
                         <p className="mb-4 text-[#1A2753] w-96 pr-4">
                             We bring Animal Feed products to people who need them all around the Country. Today, we apply that expertise to serve customers and communities in 30 districts. We have 50+ employees working every day to produce healthy feed in a responsible and sustainable way. Find out more about our operations.
                         </p>

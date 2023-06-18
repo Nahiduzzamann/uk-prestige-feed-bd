@@ -35,13 +35,13 @@ const Banner = () => {
                     </div>
                 </div>
                 <div>
-                    <img className='h-80 lg:h-[750px]' src="https://i.ytimg.com/vi/2vtBvVFQDWQ/maxresdefault.jpg" alt="Slider Image 2" />
+                    <img className='h-80 lg:h-[750px]' src="https://post.healthline.com/wp-content/uploads/2022/04/feeding-chickens-1296-728-header.jpg" alt="Slider Image 2" />
                     <div className="legend text-base">
                         <h2 className='text-3xl'>Dry Layer Feed</h2>
                     </div>
                 </div>
                 <div>
-                    <img className='h-80 lg:h-[750px]' src="https://i.ytimg.com/vi/U2sgIACyLPQ/maxresdefault.jpg" alt="Slider Image 2" />
+                    <img className='h-80 lg:h-[750px]' src="https://cdn11.bigcommerce.com/s-ubwzbv1de6/images/stencil/original/uploaded_images/-the-best-chicken-feed-for-.jpg?t=1571628196" alt="Slider Image 2" />
                     <div className="legend text-base">
                         <h2 className='text-3xl'>Dry Sonali Feed</h2>
                     </div>
