@@ -56,9 +56,8 @@ const ProductsSection = () => {
           {products.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-lg shadow-lg p-4 hover:shadow-xl  transition-all duration-300 transform-gpu hover:scale-110 border-b-8 border-b-[#1A2753] "
+              className="bg-white rounded-lg shadow-lg p-4 relative overflow-hidden group hover:shadow-xl  transition-all duration-300 transform-gpu hover:scale-110 border-b-8 border-b-[#1A2753]"
             >
-              
               <Link to={`/products/${product.id}`}>
                 <div className="mb-4">
                   <img
@@ -69,6 +68,9 @@ const ProductsSection = () => {
                 </div>
                 <h3 className="text-xl text-[#1A2753] font-semibold mb-2">{product.name}</h3>
                 <p className="text-gray-700">{product.description}</p>
+              </Link>
+              <Link to={`/products/${product.id}`} className="bg-[#1A2753] text-white py-2 px-4 rounded-md absolute bottom-0 left-0 right-0 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 text-center">
+                View Details
               </Link>
             </div>
           ))}
