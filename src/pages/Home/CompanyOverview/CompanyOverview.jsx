@@ -57,7 +57,7 @@ const CompanyOverview = () => {
             <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#1A2753]">
               Company Overview
             </h2>
-            <p className="mb-4 text-[#1A2753] w-96 pr-4">
+            <p className="mb-4 text-[#1A2753] w-full sm:w-96 lg:w-full pr-4">
               We bring Animal Feed products to people who need them all around
               the Country. Today, we apply that expertise to serve customers
               and communities in 30 districts. We have 50+ employees working

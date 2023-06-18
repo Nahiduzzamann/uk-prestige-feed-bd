@@ -90,7 +90,7 @@ const ProductDetail = () => {
         <h2 className="text-3xl font-bold text-blue-900">{name}</h2>
         <p className="text-gray-700">{description}</p>
         <p className="text-gray-700 mt-4">
-          <strong className='text-blue-900'>Price:</strong> ${price}
+          <strong className='text-blue-900'>Price:</strong> {price}
         </p>
         <h3 className="text-xl font-bold mt-6 text-blue-900">Ingredients</h3>
         <ul className="list-disc list-inside text-gray-700">
