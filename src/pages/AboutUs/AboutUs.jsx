@@ -48,11 +48,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Values section */}
-      <section className="">
-      <OurValues></OurValues>
-      </section>
-
       {/* Team section */}
       <section className="py-16 bg-[#00aaef]">
         <div className="container mx-auto px-4">
@@ -88,6 +83,11 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Values section */}
+      <section className="">
+      <OurValues></OurValues>
       </section>
     </div>
   );
