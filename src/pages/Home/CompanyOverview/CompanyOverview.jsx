@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
 const AccordionItem = ({ item, isOpen, onClick }) => (
-  <div className="border border-base-300">
+  <div className="border border-[#fff] hover:border-[#f6c60d]">
     <div className="p-4 cursor-pointer" onClick={onClick}>
-      <div className="flex items-center justify-between">
-        <div className="text-xl font-medium text-[#1A2753]">{item.title}</div>
-        <div className='text-2xl text-[#1A2753] font-bold'>{isOpen ? '-' : '+'}</div>
+      <div className="flex items-center justify-between ">
+        <div className="text-xl font-medium text-[#fff] hover:text-[#f6c60d]">{item.title}</div>
+        <div className='text-2xl text-[#fff] font-bold hover:text-[#f6c60d]'>{isOpen ? '-' : '+'}</div>
       </div>
       {isOpen && (
         <div className="mt-4">
-          <p className="text-white">{item.content}</p>
+          <p className="text-[#f6c60d]">{item.content}</p>
         </div>
       )}
     </div>
@@ -43,7 +43,7 @@ const CompanyOverview = () => {
   };
 
   return (
-    <div className="bg-red-300 rounded-t-none rounded-r rounded-tr-[200px] md:rounded-tr-[400px] pt-28 pb-10">
+    <div className="bg-[#111111] rounded-t-none rounded-r rounded-tr-[200px] md:rounded-tr-[400px] pt-28 pb-10">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 m-4">
           <div>
@@ -54,17 +54,17 @@ const CompanyOverview = () => {
             />
           </div>
           <div>
-            <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#1A2753]">
+            <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#fff]">
               Company Overview
             </h2>
-            <p className="mb-4 text-[#1A2753] w-full sm:w-96 lg:w-full pr-4">
+            <p className="mb-4 text-[#fff] w-full sm:w-96 lg:w-full pr-4">
               We bring Animal Feed products to people who need them all around
               the Country. Today, we apply that expertise to serve customers
               and communities in 30 districts. We have 50+ employees working
               every day to produce healthy feed in a responsible and
               sustainable way. Find out more about our operations.
             </p>
-            <h3 className="text-lg font-semibold mb-2 text-[#1A2753]">
+            <h3 className="text-lg font-semibold mb-2 text-[#fff]">
               Our Business Areas
             </h3>
             <div className="join join-vertical w-full">
