@@ -24,12 +24,12 @@ const ScrollToTop = () => {
   
     return (
       <div
-        className={`fixed bottom-6 right-6 z-50 transition-opacity duration-300 ${
+        className={`fixed shadow-lg rounded-full bottom-6 right-6 z-50 transition-opacity duration-300 flex items-center justify-center  animate-bounce ${
           showScroll ? 'opacity-100' : 'opacity-0'
         }`}
       >
         <FaArrowUp
-          className="text-white text-2xl bg-gray-800 rounded-full p-2 cursor-pointer hover:bg-gray-600"
+          className="text-[#fff] text-4xl bg-[#00aaef] rounded-full p-3 cursor-pointer hover:bg-[#f6c60d]"
           onClick={scrollToTop}
         />
       </div>
