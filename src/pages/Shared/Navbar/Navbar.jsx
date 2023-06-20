@@ -7,14 +7,13 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-//TODO: change height width
   return (
     <div className="w-full bg-gradient-to-r from-gray-100 via-red-500 to-gray-200">
       <div>
         <div className="container mx-auto flex items-center justify-between">
-          <div className="h-24 lg:h-28">
+          <div className="h-10 lg:h-28">
             <img
-              className=" lg:h-28 hidden lg:flex"
+              className="h-10 lg:h-28 hidden lg:flex"
               src="https://i.ibb.co/8m2cvHw/Prestige-Feed-Industry-Ltd-removebg-preview.png"
               alt=""
             />
@@ -36,7 +35,7 @@ const Navbar = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 w-10 text-[#1A2753]"
+                  className="h-8 lg:h-10 w-8 lg:w-10 text-[#1A2753]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -165,10 +164,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-end h-28">
+          <div className="navbar-end h-16 lg:h-28">
             <Link to="/">
               <img
-                className="h-28 flex lg:hidden"
+                className="h-16 lg:h-28 flex lg:hidden"
                 src="https://i.ibb.co/8m2cvHw/Prestige-Feed-Industry-Ltd-removebg-preview.png"
                 alt=""
               />
