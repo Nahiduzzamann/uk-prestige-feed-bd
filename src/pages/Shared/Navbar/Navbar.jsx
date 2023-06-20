@@ -7,14 +7,14 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
+//TODO: change height width
   return (
     <div className="w-full bg-gradient-to-r from-gray-100 via-red-500 to-gray-200">
       <div>
         <div className="container mx-auto flex items-center justify-between">
-          <div className="h-28">
+          <div className="h-24 lg:h-28">
             <img
-              className="h-28 hidden lg:flex"
+              className=" lg:h-28 hidden lg:flex"
               src="https://i.ibb.co/8m2cvHw/Prestige-Feed-Industry-Ltd-removebg-preview.png"
               alt=""
             />
