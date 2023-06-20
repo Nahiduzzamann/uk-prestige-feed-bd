@@ -24,7 +24,7 @@ const ScrollToTop = () => {
   
     return (
       <div
-        className={`fixed shadow-lg rounded-full bottom-6 right-6 z-50 transition-opacity duration-300 flex items-center justify-center  animate-bounce ${
+        className={`fixed shadow-lg rounded-full bottom-6 right-6 z-50 transition-opacity duration-300 flex items-center justify-center animate-bounce ${
           showScroll ? 'opacity-100' : 'opacity-0'
         }`}
       >
