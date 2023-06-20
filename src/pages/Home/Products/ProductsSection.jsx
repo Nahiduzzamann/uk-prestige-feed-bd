@@ -64,7 +64,7 @@ const ProductsSection = () => {
           {products.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-lg shadow-lg p-4 relative overflow-hidden group hover:shadow-xl transition-all duration-300 transform-gpu hover:scale-110 border-b-8 border-b-[#00aaef] pb-12"
+              className="bg-white rounded-lg shadow-lg p-4 relative overflow-hidden group hover:shadow-xl transition-all duration-300 transform-gpu hover:scale-110 border-b-8 border-b-[#00aaef] pb-12 hover:border-black"
             >
               <Link to={`/products/${product.id}`} >
                 <div className="mb-4">
