@@ -13,8 +13,7 @@ const OurValues = () => {
                         <div>
                             <h3 className="text-lg font-bold mb-2 text-[#fff]">Quality</h3>
                             <p className='text-[#f6c60d]'>
-                                We are committed to delivering high-quality feed products to
-                                our customers.
+                            At Prestige Feed Industry Ltd, our top priority is ensuring the delivery of high-quality feed to our valued customers. 
                             </p>
                         </div>
                     </div>
