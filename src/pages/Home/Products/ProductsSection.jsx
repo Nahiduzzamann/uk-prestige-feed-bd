@@ -1,8 +1,9 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const ProductsSection = () => {
-  const products = [
+  const allProducts = [
     {
       id: 1,
       name: 'Prestige Cattle Feed',
@@ -47,6 +48,13 @@ const ProductsSection = () => {
     },
     // Add more products here
   ];
+  const [products, setProducts] = useState(allProducts.slice(0, 3));
+  const [showAllProducts, setShowAllProducts] = useState(false);
+
+  const handleSeeMoreClick = () => {
+    setProducts(allProducts);
+    setShowAllProducts(true);
+  };
 
   return (
     <section className="bg-gray-100 py-16">
@@ -56,7 +64,7 @@ const ProductsSection = () => {
           {products.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-lg shadow-lg p-4 relative overflow-hidden group hover:shadow-xl  transition-all duration-300 transform-gpu hover:scale-110 border-b-8 border-b-[#00aaef] pb-12"
+              className="bg-white rounded-lg shadow-lg p-4 relative overflow-hidden group hover:shadow-xl transition-all duration-300 transform-gpu hover:scale-110 border-b-8 border-b-[#00aaef] pb-12"
             >
               <Link to={`/products/${product.id}`} >
                 <div className="mb-4">
@@ -69,12 +77,22 @@ const ProductsSection = () => {
                 <h3 className="text-xl text-[#1A2753] font-semibold mb-2">{product.name}</h3>
                 <p className="text-gray-700">{product.description}</p>
               </Link>
-              <Link to={`/products/${product.id}`} className=" text-[#fff] py-2 px-4 rounded-md absolute bottom-0 left-0 right-0 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 text-center bg-gradient-to-r from-[#1A2753] via-[#00aaef] to-blue-900 text-xl">
+              <Link to={`/products/${product.id}`} className="text-[#fff] py-2 px-4 rounded-md absolute bottom-0 left-0 right-0 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 text-center bg-gradient-to-r from-[#1A2753] via-[#00aaef] to-blue-900 text-xl">
                 View Details
               </Link>
             </div>
           ))}
         </div>
+        {!showAllProducts && (
+          <div className="flex justify-center mt-8">
+            <button
+              onClick={handleSeeMoreClick}
+              className="bg-[#1A2753] text-lg text-white px-4 py-2 rounded-md hover:bg-blue-900 transition-colors duration-300"
+            >
+              See More Products
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
