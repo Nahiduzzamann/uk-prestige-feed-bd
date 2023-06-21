@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="navbar container mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
-              <button
+              <div
                 tabIndex={0}
                 className="btn btn-ghost lg:hidden"
                 onClick={toggleMenu}
@@ -47,7 +47,7 @@ const Navbar = () => {
                     d="M4 6h16M4 12h8m-8 6h16"
                   />
                 </svg>
-              </button>
+              </div>
               {isOpen && (
                 <ul className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-[#1A2753] rounded-box w-52 text-white absolute z-50">
                   <li>

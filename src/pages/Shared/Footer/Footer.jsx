@@ -44,7 +44,7 @@ const Footer = () => {
                         <div>
                             <h3 className="text-[#111111] font-bold text-3xl mb-2 border-b-[3px] border-[#00aaef] w-16">Contact</h3>
                             <p className="text-[#111111]">Khandakar Lodge, House-65, Road-2, RK Road,Islambag, Rangpur</p>
-                            <p className="text-[#111111]">Email: banglanetworkltd@gmail.com</p>
+                            <p className="text-[#111111]">Email: prestigefeed.bd@gmail.com</p>
                             <p className="text-[#111111]">Phone: 01713337752</p>
                         </div>
                     </div>

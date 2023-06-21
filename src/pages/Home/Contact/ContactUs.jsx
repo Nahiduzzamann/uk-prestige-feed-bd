@@ -4,16 +4,18 @@ import { PhoneIcon, MailIcon, LocationMarkerIcon } from '@heroicons/react/outlin
 const ContactPage = () => {
     return (
         <div className="container mx-auto p-4 pt-12 pb-12">
+                    <h4 className="text-3xl text-center font-bold mb-8 text-[#1A2753]">Contact Us</h4>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                    <h4 className="text-2xl font-bold mb-4 text-[#1A2753]">Contact Us</h4>
+                    <h4 className="text-2xl font-bold mb-4 text-[#1A2753]">Sub Branch</h4>
                     <div className="flex items-center mb-2 text-blue-900">
                         <PhoneIcon className="h-6 w-6 mr-2 " />
-                        <span>+8801713337752</span>
+                        <span>+8801713-337752</span>
                     </div>
                     <div className="flex items-center mb-2 text-blue-900">
                         <MailIcon className="h-6 w-6 mr-2" />
-                        <span>banglanetworkltd@gmail.com</span>
+                        <span>prestigefeed.bd@gmail.com</span>
                     </div>
                     <div className="flex items-center mb-2 text-blue-900">
                         <LocationMarkerIcon className="h-6 w-6 mr-2" />
@@ -34,6 +36,21 @@ const ContactPage = () => {
                                 tabIndex="0"
                             ></iframe>
                         </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 className="text-2xl font-bold mb-4 text-[#1A2753]">Head Office</h4>
+                    <div className="flex items-center mb-2 text-blue-900">
+                        <PhoneIcon className="h-6 w-6 mr-2 " />
+                        <span>+8801713-337951</span>
+                    </div>
+                    <div className="flex items-center mb-2 text-blue-900">
+                        <MailIcon className="h-6 w-6 mr-2" />
+                        <span>prestigefeed.bd@gmail.com</span>
+                    </div>
+                    <div className="flex items-center mb-2 text-blue-900">
+                        <LocationMarkerIcon className="h-6 w-6 mr-2" />
+                        <span>House 381, Level-5, Road- 28, New DOSH, Mohakhali, Dhaka- 1206</span>
                     </div>
                 </div>
                 <div>
