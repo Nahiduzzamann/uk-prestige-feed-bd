@@ -57,7 +57,7 @@ const Navbar = () => {
                     <a>Products</a>
                     <ul className="p-2">
                       <li>
-                        <Link  to={`/products/${1}`} onClick={toggleMenu}>Prestige Cattle Feed</Link>
+                        <Link onClick={toggleMenu} to={`/products/${1}`}>Prestige Cattle Feed</Link>
                       </li>
                       <li>
                         <Link onClick={toggleMenu} to={`/products/${2}`}>Prestige Boiler Feed</Link>
