@@ -17,12 +17,12 @@ const ProductDetail = () => {
     },
     {
       id: 2,
-      name: 'Prestige Boiler Feed',
-      description: 'A high-quality feed designed for boilers, ensuring optimal health, growth, and performance by providing a balanced blend of nutrients.',
+      name: 'Prestige Broiler Feed',
+      description: 'A high-quality feed designed for Broilers, ensuring optimal health, growth, and performance by providing a balanced blend of nutrients.',
       image: 'https://blog.blains.com/blog/wp-content/uploads/2016/01/Selecting-the-Right-Chicken-Feed.jpg',
       price: 29.99,
       ingredients: ['Sorghum', 'Fish Meal', 'Soybean Meal', 'Vitamins', 'Minerals'],
-      usage: 'Feed the boilers as per the recommended feeding guidelines.',
+      usage: 'Feed the Broilers as per the recommended feeding guidelines.',
     },
     {
       id: 3,

@@ -8,7 +8,7 @@ const ContactPage = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                    <h4 className="text-2xl font-bold mb-4 text-[#1A2753]">Sub Branch</h4>
+                    <h4 className="text-2xl font-bold mb-4 text-[#1A2753]">Branch Office</h4>
                     <div className="flex items-center mb-2 text-blue-900">
                         <PhoneIcon className="h-6 w-6 mr-2 " />
                         <span>+8801713-337752</span>

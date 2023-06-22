@@ -25,7 +25,7 @@ const Banner = () => {
                 <div>
                     <img className='h-80 lg:h-[750px]' src="https://benisonmedia.com/wp-content/uploads/2022/03/Research-min-scaled.jpg" alt="Slider Image 2" />
                     <div className="legend text-base">
-                        <h2 className='text-lg'>Dry Boiler Feed</h2>
+                        <h2 className='text-lg'>Dry Broiler Feed</h2>
                     </div>
                 </div>
                 <div>

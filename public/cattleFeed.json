@@ -1,0 +1,59 @@
+{
+    "cattleFeed": [
+      {
+        "id": 1,
+        "name": "Prestige Meet Growing",
+        "image": "meet_growing.jpg",
+        "description": "High-quality cattle feed for promoting healthy growth in young cattle.",
+        "price": "$50",
+        "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
+        "usage": "Feed 2-3 times daily according to the weight and age of the cattle."
+      },
+      {
+        "id": 2,
+        "name": "Prestige Milk Booster",
+        "image": "milk_booster.jpg",
+        "description": "Specially formulated feed to enhance milk production in dairy cattle.",
+        "price": "$60",
+        "ingredients": "Barley, oats, corn, molasses, vitamins, minerals",
+        "usage": "Feed 2 times daily along with regular feed for optimal milk production."
+      },
+      {
+        "id": 3,
+        "name": "Prestige Energy Booster",
+        "image": "energy_booster.jpg",
+        "description": "High-energy feed for providing an extra boost of energy to cattle.",
+        "price": "$45",
+        "ingredients": "Soybean meal, corn, wheat bran, molasses, vitamins, minerals",
+        "usage": "Feed as a supplement during periods of high energy requirements or increased activity."
+      },
+      {
+        "id": 4,
+        "name": "Prestige Pregnancy",
+        "image": "pregnancy.jpg",
+        "description": "Nutrient-rich feed to support healthy pregnancy in cattle.",
+        "price": "$55",
+        "ingredients": "Soybean meal, alfalfa, corn gluten meal, vitamins, minerals",
+        "usage": "Feed during the entire pregnancy period to ensure proper nutrition and fetal development."
+      },
+      {
+        "id": 5,
+        "name": "Prestige Supergold",
+        "image": "supergold.jpg",
+        "description": "Premium quality feed with balanced nutrition for overall cattle health.",
+        "price": "$70",
+        "ingredients": "Barley, oats, corn, soybean meal, vitamins, minerals",
+        "usage": "Feed as a complete ration to meet all nutritional requirements of cattle."
+      },
+      {
+        "id": 6,
+        "name": "Prestige Transfer",
+        "image": "transfer.jpg",
+        "description": "Special feed to aid in the transfer of cattle from one diet to another.",
+        "price": "$40",
+        "ingredients": "Wheat, rice bran, corn gluten meal, molasses, vitamins, minerals",
+        "usage": "Gradually introduce this feed while transitioning cattle to a new diet."
+      }
+    ]
+  }
+  

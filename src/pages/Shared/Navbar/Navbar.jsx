@@ -60,7 +60,7 @@ const Navbar = () => {
                         <NavLink onClick={toggleMenu} to={`/products/${1}`}>Prestige Cattle Feed</NavLink>
                       </li>
                       <li>
-                        <NavLink onClick={toggleMenu} to={`/products/${2}`}>Prestige Boiler Feed</NavLink>
+                        <NavLink onClick={toggleMenu} to={`/products/${2}`}>Prestige Broiler Feed</NavLink>
                       </li>
                       <li>
                         <NavLink onClick={toggleMenu} to={`/products/${3}`}>Prestige Layer Feed</NavLink>
@@ -116,7 +116,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <NavLink className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${2}`}>
-                        Prestige Boiler Feed
+                        Prestige Broiler Feed
                       </NavLink>
                     </li>
                     <li>
