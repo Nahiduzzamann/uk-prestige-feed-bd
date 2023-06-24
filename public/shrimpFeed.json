@@ -1,0 +1,32 @@
+{
+    "shrimpFeed": [
+      {
+        "id": 1,
+        "name": "Prestige Shrimp Gold Feed",
+        "image": "shrimp_gold_feed.jpg",
+        "description": "Premium feed specifically formulated for shrimp.",
+        "price": "$35",
+        "ingredients": "Shrimp meal, fishmeal, soybean meal, vitamins, minerals",
+        "usage": "Feed small amounts multiple times a day, adjusting the quantity based on shrimp size and water conditions."
+      },
+      {
+        "id": 2,
+        "name": "Prestige Special Shrimp Feed",
+        "image": "special_shrimp_feed.jpg",
+        "description": "Specialized feed for promoting growth and health of shrimp.",
+        "price": "$30",
+        "ingredients": "Shrimp meal, fishmeal, wheat, vitamins, minerals",
+        "usage": "Feed according to the recommended feeding rates based on shrimp size and pond conditions."
+      },
+      {
+        "id": 3,
+        "name": "Prestige Premium Shrimp Feed",
+        "image": "premium_shrimp_feed.jpg",
+        "description": "High-quality feed to support optimal growth and development of shrimp.",
+        "price": "$32",
+        "ingredients": "Shrimp meal, fishmeal, soybean meal, vitamins, minerals",
+        "usage": "Feed multiple times a day, ensuring complete consumption by the shrimp."
+      }
+    ]
+  }
+  
