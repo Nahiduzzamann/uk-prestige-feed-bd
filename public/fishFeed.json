@@ -1,0 +1,68 @@
+{
+    "fishFeed": [
+      {
+        "id": 1,
+        "name": "Prestige Premium Floating Feed",
+        "image": "floating_feed.jpg",
+        "description": "High-quality floating feed for a variety of fish species.",
+        "price": "$20",
+        "ingredients": "Fishmeal, soybean meal, wheat, vitamins, minerals",
+        "usage": "Feed multiple times a day, allowing fish to consume within a few minutes."
+      },
+      {
+        "id": 2,
+        "name": "Prestige Premium Aquatic Feed",
+        "image": "aquatic_feed.jpg",
+        "description": "Nutritious feed designed for optimal growth of aquatic species.",
+        "price": "$25",
+        "ingredients": "Fishmeal, soybean meal, corn, vitamins, minerals",
+        "usage": "Feed according to the feeding guidelines provided based on the species and size of fish."
+      },
+      {
+        "id": 3,
+        "name": "Prestige Premium Common Carp Feed",
+        "image": "common_carp_feed.jpg",
+        "description": "Specialized feed formulated for common carp.",
+        "price": "$30",
+        "ingredients": "Fishmeal, soybean meal, wheat, vitamins, minerals",
+        "usage": "Feed multiple times a day, adjusting the quantity based on the carp's appetite."
+      },
+      {
+        "id": 4,
+        "name": "Prestige Premium Shrimp Feed",
+        "image": "shrimp_feed.jpg",
+        "description": "Optimal feed for promoting healthy growth of shrimp.",
+        "price": "$28",
+        "ingredients": "Shrimp meal, soybean meal, wheat, vitamins, minerals",
+        "usage": "Feed small amounts several times a day, ensuring thorough consumption."
+      },
+      {
+        "id": 5,
+        "name": "Prestige Premium Tilapia Feed",
+        "image": "tilapia_feed.jpg",
+        "description": "Specific feed to support the growth and development of tilapia.",
+        "price": "$32",
+        "ingredients": "Fishmeal, soybean meal, corn, vitamins, minerals",
+        "usage": "Feed according to the recommended feeding rates based on tilapia size and water conditions."
+      },
+      {
+        "id": 6,
+        "name": "Prestige Premium Common (Koi, Horn and Magur) Feed",
+        "image": "koi_horn_magur_feed.jpg",
+        "description": "Balanced feed for common fish species like Koi, Horn, and Magur.",
+        "price": "$26",
+        "ingredients": "Fishmeal, soybean meal, wheat, vitamins, minerals",
+        "usage": "Feed multiple times a day, adjusting the amount based on fish activity and growth."
+      },
+      {
+        "id": 7,
+        "name": "Prestige Premium (Pabda, Gulsha and Carp) Feed",
+        "image": "pabda_gulsha_carp_feed.jpg",
+        "description": "High-quality feed suitable for Pabda, Gulsha, and Carp fish.",
+        "price": "$29",
+        "ingredients": "Fishmeal, soybean meal, corn, vitamins, minerals",
+        "usage": "Feed as per the recommended feeding rates provided for optimal fish health and growth."
+      }
+    ]
+  }
+  
