@@ -51,37 +51,37 @@ const Navbar = () => {
               {isOpen && (
                 <ul
                   tabIndex={0}
-                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-gray-900 z-50"
+                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-[#1A2753] z-50"
                 >
-                  <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to="/">Home</NavLink>
                   </li>
                   <p className='text-center underline pb-2'>Products</p>
-                  <li>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${1}`}>Prestige Cattle Feed</NavLink>
                   </li>
-                  <li>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${2}`}>Prestige Broiler Feed</NavLink>
                   </li>
-                  <li>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${3}`}>Prestige Layer Feed</NavLink>
                   </li>
-                  <li>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${4}`}>Prestige Sonali Feed</NavLink>
                   </li>
-                  <li>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${5}`}>Prestige Fish Feed</NavLink>
                   </li>
-                  <li>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${6}`}>Prestige Dry Dog Feed</NavLink>
                   </li>
-                  <li>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${7}`}>Prestige Dry Cat Feed</NavLink>
                   </li>
-                  <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to="/aboutus">About</NavLink>
                   </li>
-                  <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to="/contact">Contact</NavLink>
                   </li>
                 </ul>
