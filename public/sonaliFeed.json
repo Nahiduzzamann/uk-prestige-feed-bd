@@ -1,37 +1,37 @@
 {
-    "broilerFeed": [
+    "sonaliFeed": [
       {
         "id": 1,
-        "name": "Prestige Broiler Pre-Starter Feed",
-        "image": "broiler_pre_starter.jpg",
-        "description": "Specially formulated feed for young broiler chicks in the pre-starter phase.",
+        "name": "Prestige Sonali Pre-Starter Feed",
+        "image": "sonali_pre_starter.jpg",
+        "description": "Specially formulated feed for young Sonali chicks in the pre-starter phase.",
         "price": "$25",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 1 to day 7 to provide essential nutrients for healthy growth."
       },
       {
         "id": 2,
-        "name": "Prestige Broiler Starter Feed",
-        "image": "broiler_starter.jpg",
-        "description": "Nutritious feed for broiler chickens during the starter phase.",
+        "name": "Prestige Sonali Starter Feed",
+        "image": "sonali_starter.jpg",
+        "description": "Nutritious feed for Sonali chickens during the starter phase.",
         "price": "$30",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 8 to day 21 to support optimal growth and development."
       },
       {
         "id": 3,
-        "name": "Prestige Broiler Grower Feed",
-        "image": "broiler_grower.jpg",
-        "description": "Balanced feed for broilers during the grower phase.",
+        "name": "Prestige Sonali Grower Feed",
+        "image": "sonali_grower.jpg",
+        "description": "Balanced feed for Sonali chickens during the grower phase.",
         "price": "$35",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 22 to day 35 to ensure proper weight gain and muscle development."
       },
       {
         "id": 4,
-        "name": "Prestige Broiler Finisher Feed",
-        "image": "broiler_finisher.jpg",
-        "description": "Final phase feed for broilers during the finishing stage.",
+        "name": "Prestige Sonali Finisher Feed",
+        "image": "sonali_finisher.jpg",
+        "description": "Final phase feed for Sonali chickens during the finishing stage.",
         "price": "$40",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 36 until market weight to promote meat quality and overall health."
