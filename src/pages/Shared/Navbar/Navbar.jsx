@@ -49,20 +49,21 @@ const Navbar = () => {
                 </svg>
               </div>
               {isOpen && (
-                <ul className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-[#1A2753] rounded-box w-52 text-white absolute z-50">
-                  <li>
+                <ul
+                  tabIndex={0}
+                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-gray-900 z-50"
+                >
+                  <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to="/">Home</NavLink>
                   </li>
+                  <p className='text-center underline pb-2'>Products</p>
                   <li>
-                    <a>Products</a>
-                    <ul className="p-2">
-                      <li>
-                        <NavLink onClick={toggleMenu} to={`/products/${1}`}>Prestige Cattle Feed</NavLink>
-                      </li>
-                      <li>
-                        <NavLink onClick={toggleMenu} to={`/products/${2}`}>Prestige Broiler Feed</NavLink>
-                      </li>
-                      <li>
+                    <NavLink onClick={toggleMenu} to={`/products/${1}`}>Prestige Cattle Feed</NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={toggleMenu} to={`/products/${2}`}>Prestige Broiler Feed</NavLink>
+                  </li>
+                  <li>
                         <NavLink onClick={toggleMenu} to={`/products/${3}`}>Prestige Layer Feed</NavLink>
                       </li>
                       <li>
@@ -77,16 +78,11 @@ const Navbar = () => {
                       <li>
                         <NavLink onClick={toggleMenu} to={`/products/${7}`}>Prestige Dry Cat Feed</NavLink>
                       </li>
-                    </ul>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
+                    <NavLink onClick={toggleMenu} to="/aboutus">About</NavLink>
                   </li>
-                  <li>
-                    <NavLink onClick={toggleMenu} to="/Services">Services</NavLink>
-                  </li>
-                  <li>
-                    <NavLink onClick={toggleMenu} to="/aboutus">About Us</NavLink>
-                  </li>
-                  <li>
-                    <NavLink onClick={toggleMenu} to="/contact">Contact Us</NavLink>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
+                    <NavLink onClick={toggleMenu} to="/contact">Contact</NavLink>
                   </li>
                 </ul>
               )}
@@ -175,7 +171,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      
+
     </div>
   );
 };
