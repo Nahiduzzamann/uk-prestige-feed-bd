@@ -1,0 +1,41 @@
+{
+    "aquariumFishFeed": [
+      {
+        "id": 1,
+        "name": "Clean & Clear Water",
+        "image": "clean_clear_water.jpg",
+        "description": "Specially formulated feed to promote clean and clear water in aquariums.",
+        "price": "$15",
+        "ingredients": "Fishmeal, spirulina, vitamins, minerals",
+        "usage": "Feed small amounts multiple times a day, adjusting the quantity based on the number and size of fish."
+      },
+      {
+        "id": 2,
+        "name": "Protein Enriched",
+        "image": "protein_enriched.jpg",
+        "description": "High protein content for optimal growth and development of aquarium fish.",
+        "price": "$20",
+        "ingredients": "Fishmeal, shrimp meal, wheat flour, vitamins, minerals",
+        "usage": "Feed twice daily, an amount that fish can consume within a few minutes."
+      },
+      {
+        "id": 3,
+        "name": "Full Amino Profile",
+        "image": "full_amino_profile.jpg",
+        "description": "Complete amino acid profile to support fish health and vitality.",
+        "price": "$18",
+        "ingredients": "Fishmeal, soy protein, krill meal, vitamins, minerals",
+        "usage": "Feed small portions multiple times a day to prevent overeating and maintain water quality."
+      },
+      {
+        "id": 4,
+        "name": "Improves Fish Color",
+        "image": "improves_fish_color.jpg",
+        "description": "Enhances fish coloration for vibrant and attractive aquarium display.",
+        "price": "$22",
+        "ingredients": "Fishmeal, astaxanthin, spirulina, vitamins, minerals",
+        "usage": "Feed once or twice a day, an amount that fish can consume in a few minutes."
+      }
+    ]
+  }
+  
