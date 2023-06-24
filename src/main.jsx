@@ -9,6 +9,7 @@ import ProductDetail from './pages/Home/Products/ProductDetail';
 import Services from './pages/Services/Services';
 import ContactPage from './pages/Home/Contact/ContactUs';
 import AboutUs from './pages/AboutUs/AboutUs';
+import CattleFeed from './pages/CattleFeed/CattleFeed';
 
 
 const router = createBrowserRouter([
@@ -34,7 +35,11 @@ const router = createBrowserRouter([
         element: <AboutUs></AboutUs>
       },
       {
-        path: "/products/:productId",
+        path: "/cattleFeed",
+        element: <CattleFeed></CattleFeed>
+      },
+      {
+        path: "/products/:productName",
         element: <ProductDetail></ProductDetail>
       },
      
