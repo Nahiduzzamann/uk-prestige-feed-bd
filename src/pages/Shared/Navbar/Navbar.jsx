@@ -64,20 +64,20 @@ const Navbar = () => {
                     <NavLink onClick={toggleMenu} to={`/products/${2}`}>Prestige Broiler Feed</NavLink>
                   </li>
                   <li>
-                        <NavLink onClick={toggleMenu} to={`/products/${3}`}>Prestige Layer Feed</NavLink>
-                      </li>
-                      <li>
-                        <NavLink onClick={toggleMenu} to={`/products/${4}`}>Prestige Sonali Feed</NavLink>
-                      </li>
-                      <li>
-                        <NavLink onClick={toggleMenu} to={`/products/${5}`}>Prestige Fish Feed</NavLink>
-                      </li>
-                      <li>
-                        <NavLink onClick={toggleMenu} to={`/products/${6}`}>Prestige Dry Dog Feed</NavLink>
-                      </li>
-                      <li>
-                        <NavLink onClick={toggleMenu} to={`/products/${7}`}>Prestige Dry Cat Feed</NavLink>
-                      </li>
+                    <NavLink onClick={toggleMenu} to={`/products/${3}`}>Prestige Layer Feed</NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={toggleMenu} to={`/products/${4}`}>Prestige Sonali Feed</NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={toggleMenu} to={`/products/${5}`}>Prestige Fish Feed</NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={toggleMenu} to={`/products/${6}`}>Prestige Dry Dog Feed</NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={toggleMenu} to={`/products/${7}`}>Prestige Dry Cat Feed</NavLink>
+                  </li>
                   <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to="/aboutus">About</NavLink>
                   </li>
@@ -100,48 +100,73 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li tabIndex={0}>
-                <details>
-                  <summary className="text-white hover:text-gray-300 lg:text-2xl mr-5">
+                <div className="relative">
+                  <div className="text-white hover:text-gray-300 lg:text-2xl mr-5 cursor-pointer" onMouseEnter={() => document.getElementById("dropdown").classList.remove("hidden")} onMouseLeave={() => document.getElementById("dropdown").classList.add("hidden")}>
                     Products
-                  </summary>
-                  <ul className="p-2 bg-[#1A2753] absolute z-50">
-                    <li>
-                      <NavLink className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${1}`}>
-                        Prestige Cattle Feed
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${2}`}>
-                        Prestige Broiler Feed
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${3}`}>
-                        Prestige Layer Feed
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${4}`}>
-                        Prestige Sonali Feed
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${5}`}>
-                        Prestige Fish Feed
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${6}`}>
-                        Prestige Dry Dog Feed
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="text-white hover:text-gray-300 lg:text-xl" to={`/products/${7}`}>
-                        Prestige Dry Cat Feed
-                      </NavLink>
-                    </li>
-                  </ul>
-                </details>
+                  </div>
+                  <div id="dropdown" className="hidden absolute text-gray-800 shadow top-10 rounded z-50" onMouseEnter={() => document.getElementById("dropdown").classList.remove("hidden")} onMouseLeave={() => document.getElementById("dropdown").classList.add("hidden")}>
+                    <ul className="p-4 bg-[#1A2753] rounded-md">
+                      <li>
+                        <NavLink
+                          className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${1}`}
+                        >
+                          Prestige Cattle Feed
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${2}`}
+                        >
+                          Prestige Broiler Feed
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${3}`}
+                        >
+                          Prestige Layer Feed
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${4}`}
+                        >
+                          Prestige Sonali Feed
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${5}`}
+                        >
+                          Prestige Fish Feed
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${6}`}
+                        >
+                          Prestige Dry Dog Feed
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${7}`}
+                        >
+                          Prestige Dry Cat Feed
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
               </li>
               <li>
                 <NavLink className="text-white hover:text-gray-300 lg:text-2xl  mr-5" to="/Services">
