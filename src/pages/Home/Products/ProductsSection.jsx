@@ -26,7 +26,7 @@ const ProductsSection = () => {
       id: 'sonaliFeed',
       name: 'Prestige Sonali Feed',
       description: 'A specialized feed formulated for Sonali chickens, supporting their growth, immune system, and overall well-being.',
-      image: 'https://knbgroup.com.bd/wp-content/uploads/2021/10/Lab-scale-testing-of-novel-fish-feed-ingredients-768x432.jpg',
+      image: 'https://feedbangladeshltd.com/wp-content/uploads/2021/03/Horse-feed-with-can-dreamstime_m_26200476.jpg',
     },
     {
       id: 'fishFeed',

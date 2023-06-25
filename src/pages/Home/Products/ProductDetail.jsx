@@ -30,10 +30,10 @@ const ProductDetail = () => {
                 className="w-40 h-40 mx-auto mb-4 rounded-full"
               />
               <h2 className="text-2xl font-bold mb-2 text-center text-[#1A2753]">{feed.name}</h2>
-              <p className="text-[#1A2753] mb-4">{feed.description}</p>
-              <p className="text-[#1A2753] font-bold mb-2 flex ">Price: <p className='text-black font-normal ml-1'>{feed.price}</p></p>
-              <p className="text-[#1A2753] font-bold mb-2 flex">Ingredients: <p className='text-black font-normal ml-1'>{feed.ingredients}</p></p>
-              <p className="text-[#1A2753] font-bold mb-4 flex">Usage: <p className='text-black font-normal ml-1'>{feed.usage}</p></p>
+              <div className="text-[#1A2753] mb-4">{feed.description}</div>
+              <div className="text-[#1A2753] text-lg font-bold mb-2 flex ">Price: <p className='text-black font-normal ml-1'>{feed.price}</p></div>
+              <div className="text-[#1A2753] text-lg font-bold mb-2 flex">Ingredients: <p className='text-black font-normal ml-1'>{feed.ingredients}</p></div>
+              <div className="text-[#1A2753] text-lg font-bold mb-4 flex">Usage: <p className='text-black font-normal ml-1'>{feed.usage}</p></div>
             </div>
           ))}
         </div>
