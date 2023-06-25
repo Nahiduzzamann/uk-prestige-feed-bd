@@ -5,46 +5,46 @@ import { Link } from 'react-router-dom';
 const ProductsSection = () => {
   const allProducts = [
     {
-      id: 1,
+      id: 'cattleFeed',
       name: 'Prestige Cattle Feed',
       description: 'A nutritious feed specially formulated to meet the dietary needs of cattle, providing essential nutrients for growth and maintenance.',
       image: 'https://pellet-making-machine.com/wp-content/uploads/2019/06/Cattle-Feed-Pellet.jpg',
     },
     {
-      id: 2,
+      id: 'broilerFeed',
       name: 'Prestige Broiler Feed',
       description: 'A high-quality feed designed for Broilers, ensuring optimal health, growth, and performance by providing a balanced blend of nutrients.',
       image: 'https://blog.blains.com/blog/wp-content/uploads/2016/01/Selecting-the-Right-Chicken-Feed.jpg',
     },
     {
-      id: 3,
+      id: 'layerFeed',
       name: 'Prestige Layer Feed',
       description: 'An ideal feed for layer hens, containing the right balance of proteins, vitamins, and minerals to promote egg production and overall health.',
       image: 'https://www.kalmbachfeeds.com/wp-content/uploads/2022/08/chicken-eating-henhouse-reserve-chicken-feed-out-of-top-of-feeder.jpg',
     },
     {
-      id: 4,
+      id: 'sonaliFeed',
       name: 'Prestige Sonali Feed',
       description: 'A specialized feed formulated for Sonali chickens, supporting their growth, immune system, and overall well-being.',
       image: 'https://knbgroup.com.bd/wp-content/uploads/2021/10/Lab-scale-testing-of-novel-fish-feed-ingredients-768x432.jpg',
     },
     {
-      id: 5,
+      id: 'fishFeed',
       name: 'Prestige Fish Feed',
       description: 'A high-quality fish feed that provides essential nutrients to enhance fish growth, health, and coloration, resulting in healthy and vibrant fish.',
       image: 'https://www.allaboutfeed.net/app/uploads/2020/12/001_276_rb-image-2756185.jpeg',
     },
     {
-      id: 6,
-      name: 'Prestige Dog Feed',
-      description: 'A balanced and nutritious feed for dogs, promoting healthy digestion, strong bones, shiny coat, and overall vitality for your beloved pets.',
-      image: 'https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_27/2918166/190701-dog-food-eating-bowl-ac-527p.jpg',
+      id: 'shrimpFeed',
+      name: 'Prestige Shrimp Feed',
+      description: "A balanced and nutritious feed for shrimp, promoting healthy growth, vibrant colors, and overall vitality for your aquatic pets.",
+      image: "https://www.globalseafood.org/wp-content/uploads/2004/06/Chamberlainpic1.jpg"
     },
     {
-      id: 7,
-      name: 'Prestige Cat Feed',
-      description: 'A premium cat feed enriched with essential nutrients to support feline health, including a healthy urinary tract, strong muscles, and a glossy coat.',
-      image: 'https://www.purina-arabia.com/sites/default/files/2021-03/Article%20teaser%20cat%20feeding.jpg',
+      id: 'aquariumFishFeed',
+      name: 'Prestige Aquarium Fish Feed',
+      description: "A premium fish feed enriched with essential nutrients to support the health and well-being of aquarium fish, including vibrant colors, strong immunity, and optimal digestion.",
+      image: "https://i.ytimg.com/vi/FxlqWO_trOE/maxresdefault.jpg"
     },
     // Add more products here
   ];
