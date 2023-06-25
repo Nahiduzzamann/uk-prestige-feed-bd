@@ -5,7 +5,7 @@
         "name": "Prestige Broiler Pre-Starter Feed",
         "image": "https://5.imimg.com/data5/YM/GL/AR/SELLER-1524463/organic-broiler-pre-starter-feed.jpg",
         "description": "Specially formulated feed for young broiler chicks in the pre-starter phase.",
-        "price": "$25",
+        "price": "25",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 1 to day 7 to provide essential nutrients for healthy growth."
       },
@@ -14,7 +14,7 @@
         "name": "Prestige Broiler Starter Feed",
         "image": "https://5.imimg.com/data5/BW/EP/MY-2118338/broiler-starter-feed-500x500.jpg",
         "description": "Nutritious feed for broiler chickens during the starter phase.",
-        "price": "$30",
+        "price": "30",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 8 to day 21 to support optimal growth and development."
       },
@@ -23,7 +23,7 @@
         "name": "Prestige Broiler Grower Feed",
         "image": "https://adarshafeedltd.com/wp-content/uploads/2020/08/Broiler-Grower-1.jpg",
         "description": "Balanced feed for broilers during the grower phase.",
-        "price": "$35",
+        "price": "35",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 22 to day 35 to ensure proper weight gain and muscle development."
       },
@@ -32,7 +32,7 @@
         "name": "Prestige Broiler Finisher Feed",
         "image": "https://i0.wp.com/poultryfeedformulation.com/wp-content/uploads/2018/09/pellet-binders-800x539.jpg?fit=800%2C539&ssl=1",
         "description": "Final phase feed for broilers during the finishing stage.",
-        "price": "$40",
+        "price": "40",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 36 until market weight to promote meat quality and overall health."
       }

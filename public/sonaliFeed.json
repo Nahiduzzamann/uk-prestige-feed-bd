@@ -5,7 +5,7 @@
         "name": "Prestige Sonali Pre-Starter Feed",
         "image": "https://feedbangladeshltd.com/wp-content/uploads/2021/03/Horse-feed-with-can-dreamstime_m_26200476-800x500.jpg",
         "description": "Specially formulated feed for young Sonali chicks in the pre-starter phase.",
-        "price": "$25",
+        "price": "25",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 1 to day 7 to provide essential nutrients for healthy growth."
       },
@@ -14,7 +14,7 @@
         "name": "Prestige Sonali Starter Feed",
         "image": "https://adarshafeedltd.com/wp-content/uploads/2018/03/Sonali-pellet-cock.jpg",
         "description": "Nutritious feed for Sonali chickens during the starter phase.",
-        "price": "$30",
+        "price": "30",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 8 to day 21 to support optimal growth and development."
       },
@@ -23,7 +23,7 @@
         "name": "Prestige Sonali Grower Feed",
         "image": "https://feedbangladeshltd.com/wp-content/uploads/2021/03/Golden-groyara.jpg",
         "description": "Balanced feed for Sonali chickens during the grower phase.",
-        "price": "$35",
+        "price": "35",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 22 to day 35 to ensure proper weight gain and muscle development."
       },
@@ -32,7 +32,7 @@
         "name": "Prestige Sonali Finisher Feed",
         "image": "https://feedbangladeshltd.com/wp-content/uploads/2021/03/34898526-sinking-pellet-shrimp-feed-stock-photo-1024x682.jpg",
         "description": "Final phase feed for Sonali chickens during the finishing stage.",
-        "price": "$40",
+        "price": "40",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 36 until market weight to promote meat quality and overall health."
       }

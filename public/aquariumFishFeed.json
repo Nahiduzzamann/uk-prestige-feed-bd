@@ -5,7 +5,7 @@
         "name": "Clean & Clear Water",
         "image": "https://clearwatersa.co.za/wp-content/uploads/2021/03/Clear-Water-300x300.jpg",
         "description": "Specially formulated feed to promote clean and clear water in aquariums.",
-        "price": "$15",
+        "price": "15",
         "ingredients": "Fishmeal, spirulina, vitamins, minerals",
         "usage": "Feed small amounts multiple times a day, adjusting the quantity based on the number and size of fish."
       },
@@ -14,7 +14,7 @@
         "name": "Protein Enriched",
         "image": "https://media.istockphoto.com/id/178753936/photo/peppered-cory.jpg?s=612x612&w=0&k=20&c=hnVKyN13onrv2CBVKY4_aTrlJC_javP4cg-bADL6suM=",
         "description": "High protein content for optimal growth and development of aquarium fish.",
-        "price": "$20",
+        "price": "20",
         "ingredients": "Fishmeal, shrimp meal, wheat flour, vitamins, minerals",
         "usage": "Feed twice daily, an amount that fish can consume within a few minutes."
       },
@@ -23,7 +23,7 @@
         "name": "Full Amino Profile",
         "image": "https://i.pinimg.com/originals/62/77/3b/62773b03da7a3ae62e0dcd1d15c18ff6.jpg",
         "description": "Complete amino acid profile to support fish health and vitality.",
-        "price": "$18",
+        "price": "18",
         "ingredients": "Fishmeal, soy protein, krill meal, vitamins, minerals",
         "usage": "Feed small portions multiple times a day to prevent overeating and maintain water quality."
       },
@@ -32,7 +32,7 @@
         "name": "Improves Fish Color",
         "image": "https://cdn-fastly.petguide.com/media/2022/02/28/8292245/best-color-enhancing-fish-food.jpg?size=720x845&nocrop=1",
         "description": "Enhances fish coloration for vibrant and attractive aquarium display.",
-        "price": "$22",
+        "price": "22",
         "ingredients": "Fishmeal, astaxanthin, spirulina, vitamins, minerals",
         "usage": "Feed once or twice a day, an amount that fish can consume in a few minutes."
       }

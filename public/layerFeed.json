@@ -5,7 +5,7 @@
         "name": "Prestige Layer Pre-Starter Feed",
         "image": "https://www.wisium.com/wp-content/uploads/2022/02/Small-animal-feed-AdobeStock_9136255-scaled.jpeg",
         "description": "Specialized feed for young layer chicks in the pre-starter phase.",
-        "price": "$25",
+        "price": "25",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 1 to day 7 to provide essential nutrients for healthy growth."
       },
@@ -14,7 +14,7 @@
         "name": "Prestige Layer Starter Feed",
         "image": "https://1.imimg.com/data/W/F/MY-347537/layerconcentratefeed_250x250.jpg",
         "description": "Nutritious feed for layer chickens during the starter phase.",
-        "price": "$30",
+        "price": "30",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 8 to day 21 to support optimal growth and development."
       },
@@ -23,7 +23,7 @@
         "name": "Prestige Layer Grower Feed",
         "image": "https://feedbangladeshltd.com/wp-content/uploads/2021/03/Broiler-finisher-4.jpg",
         "description": "Balanced feed for layer chickens during the grower phase.",
-        "price": "$35",
+        "price": "35",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 22 to day 35 to ensure proper weight gain and egg production."
       },
@@ -32,7 +32,7 @@
         "name": "Prestige Layer Finisher Feed",
         "image": "https://5.imimg.com/data5/DG/DJ/KE/ANDROID-36515776/product-jpeg-250x250.jpg",
         "description": "Final phase feed for layer chickens during the finishing stage.",
-        "price": "$40",
+        "price": "40",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
         "usage": "Feed from day 36 onwards to support optimal egg quality and overall health."
       }
