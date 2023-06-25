@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Prestige Layer Pre-Starter Feed",
-        "image": "layer_pre_starter.jpg",
+        "image": "https://www.wisium.com/wp-content/uploads/2022/02/Small-animal-feed-AdobeStock_9136255-scaled.jpeg",
         "description": "Specialized feed for young layer chicks in the pre-starter phase.",
         "price": "$25",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
@@ -12,7 +12,7 @@
       {
         "id": 2,
         "name": "Prestige Layer Starter Feed",
-        "image": "layer_starter.jpg",
+        "image": "https://1.imimg.com/data/W/F/MY-347537/layerconcentratefeed_250x250.jpg",
         "description": "Nutritious feed for layer chickens during the starter phase.",
         "price": "$30",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "name": "Prestige Layer Grower Feed",
-        "image": "layer_grower.jpg",
+        "image": "https://feedbangladeshltd.com/wp-content/uploads/2021/03/Broiler-finisher-4.jpg",
         "description": "Balanced feed for layer chickens during the grower phase.",
         "price": "$35",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
@@ -30,7 +30,7 @@
       {
         "id": 4,
         "name": "Prestige Layer Finisher Feed",
-        "image": "layer_finisher.jpg",
+        "image": "https://5.imimg.com/data5/DG/DJ/KE/ANDROID-36515776/product-jpeg-250x250.jpg",
         "description": "Final phase feed for layer chickens during the finishing stage.",
         "price": "$40",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
