@@ -17,9 +17,9 @@ const Banner = () => {
                 // centerSlidePercentage={95}
             >
                 <div className=''>
-                    <img className='h-80 lg:h-[750px]' src="https://cdn.shopify.com/s/files/1/0508/4767/8644/articles/Responsible_Dog_Ownership_1200x.jpg?v=1663345594" alt="Slider Image 1" />
+                    <img className='h-80 lg:h-[750px]' src="https://i.ytimg.com/vi/FxlqWO_trOE/maxresdefault.jpg" alt="Slider Image 1" />
                     <div className="legend text-base">
-                        <h2 className='text-lg'>Dry Dog Feed</h2>
+                        <h2 className='text-lg'>Dry Aquarium Fish Feed</h2>
                     </div>
                 </div>
                 <div>
@@ -53,9 +53,9 @@ const Banner = () => {
                     </div>
                 </div>
                 <div>
-                    <img className='h-80 lg:h-[750px]' src="https://i5.walmartimages.com/asr/5ee78c28-d2cc-4575-a373-8c75444f9340.a53365569a9ce9b9e0a438b2c42d2e50.jpeg" alt="Slider Image 2" />
+                    <img className='h-80 lg:h-[750px]' src="https://www.globalseafood.org/wp-content/uploads/2004/06/Chamberlainpic1.jpg" alt="Slider Image 2" />
                     <div className="legend text-base">
-                        <h2 className='text-lg'>Dry Cat Feed</h2>
+                        <h2 className='text-lg'>Dry Shrimp Feed</h2>
                     </div>
                 </div>
             </Carousel>
