@@ -58,7 +58,7 @@ const Navbar = () => {
                   </li>
                   <p className='text-center underline pb-2'>Products</p>
                   <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
-                    <NavLink onClick={toggleMenu} to='/cattleFeed'>Prestige Cattle Feed</NavLink>
+                    <NavLink onClick={toggleMenu} to={`/products/${'cattleFeed'}`}>Prestige Cattle Feed</NavLink>
                   </li>
                   <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${'broilerFeed'}`}>Prestige Broiler Feed</NavLink>
@@ -109,7 +109,7 @@ const Navbar = () => {
                       <li>
                         <NavLink
                           className="text-white hover:text-gray-300 lg:text-xl"
-                          to='/cattleFeed'
+                          to={`/products/${'cattleFeed'}`}
                         >
                           Prestige Cattle Feed
                         </NavLink>
