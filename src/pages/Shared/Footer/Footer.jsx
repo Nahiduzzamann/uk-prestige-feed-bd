@@ -27,10 +27,10 @@ const Footer = () => {
                         <div>
                             <h3 className="text-[#111111] font-bold text-3xl mb-2 border-b-[3px] border-[#00aaef] w-16">Products</h3>
                             <ul className="text-gray-400">
-                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${1}`}>Prestige Cattle Feed</Link> </li>
-                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${2}`}>Prestige Broiler Feed</Link></li>
-                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${3}`}>Prestige Layer Feed</Link></li>
-                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${4}`}>Prestige Sonali Feed</Link></li>
+                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${'cattleFeed'}`}>Prestige Cattle Feed</Link> </li>
+                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${'broilerFeed'}`}>Prestige Broiler Feed</Link></li>
+                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${'layerFeed'}`}>Prestige Layer Feed</Link></li>
+                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${'sonaliFeed'}`}>Prestige Sonali Feed</Link></li>
                                 <li className='text-[#111111] hover:text-[#f6c60d]'><Link to='/'>. . . . . . . . . .</Link></li>
                             </ul>
                         </div>
