@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Prestige Sonali Pre-Starter Feed",
-        "image": "sonali_pre_starter.jpg",
+        "image": "https://feedbangladeshltd.com/wp-content/uploads/2021/03/Horse-feed-with-can-dreamstime_m_26200476-800x500.jpg",
         "description": "Specially formulated feed for young Sonali chicks in the pre-starter phase.",
         "price": "$25",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
@@ -12,7 +12,7 @@
       {
         "id": 2,
         "name": "Prestige Sonali Starter Feed",
-        "image": "sonali_starter.jpg",
+        "image": "https://adarshafeedltd.com/wp-content/uploads/2018/03/Sonali-pellet-cock.jpg",
         "description": "Nutritious feed for Sonali chickens during the starter phase.",
         "price": "$30",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "name": "Prestige Sonali Grower Feed",
-        "image": "sonali_grower.jpg",
+        "image": "https://feedbangladeshltd.com/wp-content/uploads/2021/03/Golden-groyara.jpg",
         "description": "Balanced feed for Sonali chickens during the grower phase.",
         "price": "$35",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
@@ -30,7 +30,7 @@
       {
         "id": 4,
         "name": "Prestige Sonali Finisher Feed",
-        "image": "sonali_finisher.jpg",
+        "image": "https://feedbangladeshltd.com/wp-content/uploads/2021/03/34898526-sinking-pellet-shrimp-feed-stock-photo-1024x682.jpg",
         "description": "Final phase feed for Sonali chickens during the finishing stage.",
         "price": "$40",
         "ingredients": "Corn, soybean meal, wheat, vitamins, minerals",
