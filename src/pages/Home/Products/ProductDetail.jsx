@@ -13,7 +13,7 @@ const ProductDetail = () => {
       .then((data) => setFeedData(data[productName]))
       .catch((error) => console.error(error));
   }, [productName]);
-  
+
 
   return (
     <div className='container mx-auto pb-10 lg:pb-20'>
@@ -42,4 +42,3 @@ const ProductDetail = () => {
 };
 
 export default ProductDetail;
-
