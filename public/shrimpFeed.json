@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Prestige Shrimp Gold Feed",
-        "image": "shrimp_gold_feed.jpg",
+        "image": "https://i0.wp.com/research.csiro.au/aquaculture/wp-content/uploads/sites/217/2022/04/Tom-tren-ban-tay.jpg?resize=840%2C556&ssl=1",
         "description": "Premium feed specifically formulated for shrimp.",
         "price": "$35",
         "ingredients": "Shrimp meal, fishmeal, soybean meal, vitamins, minerals",
@@ -12,7 +12,7 @@
       {
         "id": 2,
         "name": "Prestige Special Shrimp Feed",
-        "image": "special_shrimp_feed.jpg",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2020/10/HO/NV/IJ/4982175/cherry-shrimp-250x250.jpg",
         "description": "Specialized feed for promoting growth and health of shrimp.",
         "price": "$30",
         "ingredients": "Shrimp meal, fishmeal, wheat, vitamins, minerals",
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "name": "Prestige Premium Shrimp Feed",
-        "image": "premium_shrimp_feed.jpg",
+        "image": "https://www.aquafeed.com/media/images/0348613001583408639.original.2e16d0ba.fill-640x400.jpg",
         "description": "High-quality feed to support optimal growth and development of shrimp.",
         "price": "$32",
         "ingredients": "Shrimp meal, fishmeal, soybean meal, vitamins, minerals",

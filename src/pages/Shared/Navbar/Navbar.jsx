@@ -51,7 +51,7 @@ const Navbar = () => {
               {isOpen && (
                 <ul
                   tabIndex={0}
-                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-[#1A2753] z-50"
+                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box bg-[#1A2753] z-50"
                 >
                   <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to="/">Home</NavLink>
@@ -72,12 +72,12 @@ const Navbar = () => {
                   <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to={`/products/${'fishFeed'}`}>Prestige Fish Feed</NavLink>
                   </li>
-                  {/* <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
-                    <NavLink onClick={toggleMenu} to={`/products/${6}`}>Prestige Dry Dog Feed</NavLink>
+                  <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
+                    <NavLink onClick={toggleMenu} to={`/products/${'shrimpFeed'}`}>Prestige Shrimp Feed</NavLink>
                   </li>
                   <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
-                    <NavLink onClick={toggleMenu} to={`/products/${7}`}>Prestige Dry Cat Feed</NavLink>
-                  </li> */}
+                    <NavLink onClick={toggleMenu} to={`/products/${'aquariumFishFeed'}`}>Prestige Aquarium Fish Feed</NavLink>
+                  </li>
                   <li className="text-white  hover:bg-gray-700 px-3 py-[2px] rounded-md lgxedium">
                     <NavLink onClick={toggleMenu} to="/aboutus">About</NavLink>
                   </li>
@@ -146,22 +146,22 @@ const Navbar = () => {
                           Prestige Fish Feed
                         </NavLink>
                       </li>
-                      {/* <li>
+                      <li>
                         <NavLink
                           className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${6}`}
+                          to={`/products/${'shrimpFeed'}`}
                         >
-                          Prestige Dry Dog Feed
+                          Prestige Shrimp Feed
                         </NavLink>
                       </li>
                       <li>
                         <NavLink
                           className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${7}`}
+                          to={`/products/${'aquariumFishFeed'}`}
                         >
-                          Prestige Dry Cat Feed
+                          Prestige Aquarium Fish Feed
                         </NavLink>
-                      </li> */}
+                      </li>
                     </ul>
                   </div>
                 </div>
