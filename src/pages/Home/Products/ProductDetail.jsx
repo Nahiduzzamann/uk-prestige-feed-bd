@@ -17,7 +17,7 @@ const ProductDetail = () => {
 
   return (
     <div className='container mx-auto pb-10 lg:pb-20'>
-      <h1 className="text-4xl my-8 text-center font-bold text-[#1A2753]">Cattle Feed</h1>
+      <h1 className="text-4xl my-8 text-center font-bold text-[#1A2753]">Choose Your Sweetable Feed</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {feedData.map((feed) => (
             <div
@@ -29,7 +29,7 @@ const ProductDetail = () => {
                 alt={feed.name}
                 className="w-40 h-40 mx-auto mb-4 rounded-full"
               />
-              <h2 className="text-xl font-bold mb-2 text-center text-[#1A2753]">{feed.name}</h2>
+              <h2 className="text-2xl font-bold mb-2 text-center text-[#1A2753]">{feed.name}</h2>
               <p className="text-[#1A2753] mb-4">{feed.description}</p>
               <p className="text-[#1A2753] font-bold mb-2 flex ">Price: <p className='text-black font-normal ml-1'>{feed.price}</p></p>
               <p className="text-[#1A2753] font-bold mb-2 flex">Ingredients: <p className='text-black font-normal ml-1'>{feed.ingredients}</p></p>
